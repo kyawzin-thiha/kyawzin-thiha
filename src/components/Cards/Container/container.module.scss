@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  margin: 0 auto 35px auto;
+
+  @media screen and (max-width: 769px) {
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+  }
+
+  .title {
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 550;
+      margin-bottom: 1rem;
+      letter-spacing: 1px;
+    }
+
+    hr {
+      width: 95%;
+      height: 1px;
+      background-color: #535353;
+      margin: 10px auto 5px auto;
+      outline: none;
+      border: none;
+    }
+
+    @media screen and (max-width: 769px) {
+      h2 {
+        font-size: 26px;
+      }
+    }
+  }
+}

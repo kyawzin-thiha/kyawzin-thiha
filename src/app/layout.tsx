@@ -2,6 +2,7 @@ import type {Metadata, Viewport} from 'next';
 import {Analytics} from '@vercel/analytics/react';
 import {SpeedInsights} from '@vercel/speed-insights/next';
 import './globals.scss';
+import Navbar from '@/components/Navigations/NavBar';
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://job-infos.kyawzinthiha.com'),
@@ -41,6 +42,7 @@ export default function RootLayout({
     return (
         <html lang="en">
         <body>
+        <Navbar/>
         {children}
         <Analytics/>
         <SpeedInsights/>
