@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Kyaw Zin Thiha - Full Stack Developer & Tech Enthusiast 🚀
 
-## Getting Started
+![Kyaw's Banner](https://job-infos.kyawzinthiha.com/profile-banner.png)
 
-First, run the development server:
+Welcome to my GitHub! I'm Kyaw, a passionate Full Stack Developer with expertise in Java, TypeScript, React, and AWS. A
+graduate from the University of Portsmouth, I've been honing my skills in web technologies and AI, building scalable
+applications and innovative solutions like OpenAI GPT-based systems.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 **What I'm up to:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🔭 Exploring the latest in AI & machine learning.
+- 🌱 Constantly learning and growing in full-stack development.
+- 🤝 Looking to collaborate on impactful web projects.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ **Technologies I work with:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Frontend: React, TypeScript, HTML5, CSS3
+- Backend: Node.js, Express, PHP
+- Database: MongoDB, MySQL
+- DevOps: AWS, Docker
 
-## Learn More
+⚽ **Fun Fact:** When not coding, you can find me playing football, hiking, or lost in a good book.
 
-To learn more about Next.js, take a look at the following resources:
+Let's connect and build something amazing together! 🚀
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![LinkedIn Badge](https://img.shields.io/badge/-KyawZinThiha-blue?style=flat-square&logo=LinkedIn&logoColor=white&link=your-linkedin-url)](https://www.linkedin.com/in/kyaw-zin-thiha-b14615249/)
+[![Website Badge](https://img.shields.io/badge/-KyawZinThiha.dev-47CCCC?style=flat-square&logo=Google-Chrome&logoColor=white&link=your-website-url)](http://kyawzinthiha.dev)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 📈 **My GitHub Stats:**
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<!-- Stats widget will be here -->
+<img  src = "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=kyawzin-thiha&show_icons=true&theme=nyanza&line_height=27&hide_border=true">
+</p>

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #1D2020;
+  background-image: radial-gradient(circle at 0 0, #303636 2px, transparent 2px),
+  radial-gradient(circle at 0 0, #303636 2px, transparent 2px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+
+a {
+  text-decoration: none;
+  color: intherit;
+  cursor: pointer;
+}
+
+input, button {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
