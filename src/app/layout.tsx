@@ -3,6 +3,7 @@ import {Analytics} from '@vercel/analytics/react';
 import {SpeedInsights} from '@vercel/speed-insights/next';
 import './globals.scss';
 import Navbar from '@/components/Navigations/NavBar';
+import Footer from '@/components/Navigations/Footer';
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://job-infos.kyawzinthiha.com'),
@@ -29,7 +30,7 @@ export const viewport: Viewport = {
     width: 'device-width',
     initialScale: 1,
     viewportFit: 'cover',
-    themeColor: ' #1D2020',
+    themeColor: ' #191919',
     colorScheme: 'dark'
 };
 
@@ -44,6 +45,7 @@ export default function RootLayout({
         <body>
         <Navbar/>
         {children}
+        <Footer/>
         <Analytics/>
         <SpeedInsights/>
         </body>

@@ -8,11 +8,9 @@
   padding: 2px 5px;
   border-radius: 50px;
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
   background-color: rgba(#ccc, 0.45);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 1000;
-
 
   ul {
     list-style: none;
@@ -22,7 +20,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 300px;
+    height: 250px;
     position: relative;
 
     &::before {
@@ -39,7 +37,6 @@
 
     li {
       position: relative;
-
       a {
         text-decoration: none;
         color: white;
@@ -80,8 +77,6 @@
     }
   }
 
-  // if the screen is bigger than 4K resolution
-
   @media (min-width: 2580px) {
     left: calc(50% - 900px);
   }
@@ -91,87 +86,24 @@
   }
 
   @media (max-width: 767px) {
-    position: fixed;
     top: auto;
-    bottom: 0;
+    bottom: 15px;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 95%;
+    transform: translateX(-50%);
+    width: 90%;
     max-width: 500px;
     margin: 0 auto;
 
     ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      height: 300px;
-      position: relative;
-
-      @media (max-width: 767px) {
-        flex-direction: row; /* Change direction to row on mobile */
-        height: auto;
-      }
-
-      &::before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background: rgba(252, 251, 238, 0.6); /* Adjusted the syntax for rgba */
-        border-radius: 50%;
-        transition: top 0.3s ease, height 0.3s ease;
-        transform: scale(0);
-        z-index: -1;
-      }
+      flex-direction: row;
+      justify-content: space-between;
+      height: auto;
 
       li {
-        position: relative;
-
-        @media (max-width: 767px) {
-          flex: 1; /* Flex grow on mobile */
-        }
-
-        a {
-          text-decoration: none;
-          color: white;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 45px;
-          height: 45px;
-          background: transparent;
-          border-radius: 50%;
-          transition: all 0.3s ease;
-          position: relative;
-          overflow: hidden;
-
-          &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(252, 251, 238, 1); /* Adjusted the syntax for rgba */
-            border-radius: 50%;
-            transform: scale(0);
-            transition: transform 0.3s ease;
-            z-index: -1;
-          }
-
-          &:hover::before, &.active::before {
-            transform: scale(1);
-          }
-
-          img {
-            position: relative;
-            display: block;
-          }
-        }
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
     }
   }

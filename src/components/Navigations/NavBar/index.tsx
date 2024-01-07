@@ -7,7 +7,6 @@ import Home from '@/resources/svgs/nav-icons/home.svg';
 import Projects from '@/resources/svgs/nav-icons/projects.svg';
 import Tech from '@/resources/svgs/nav-icons/tech.svg';
 import Contact from '@/resources/svgs/nav-icons/contact.svg';
-import Mail from '@/resources/svgs/nav-icons/message.svg';
 import styles from './navbar.module.scss';
 
 const Navbar: React.FC = () => {
@@ -38,7 +37,7 @@ const Navbar: React.FC = () => {
 
     useEffect(() => {
         const handleScroll = debounce((): void => {
-            const sections = ['home', 'projects', 'skills', 'mail', 'contact'];
+            const sections = ['home', 'experiences', 'projects', 'contacts'];
             let currentSection = 'home';
 
             for (const section of sections) {
@@ -78,10 +77,9 @@ const Navbar: React.FC = () => {
         <nav className={styles.navbar} ref={navbarRef}>
             <ul>
                 {renderNavItem('home', Home, 'Home')}
-                {renderNavItem('projects', Projects, 'Projects')}
-                {renderNavItem('skills', Tech, 'Skills')}
-                {renderNavItem('mail', Mail, 'Mail')}
-                {renderNavItem('contact', Contact, 'Contact')}
+                {renderNavItem('experiences', Projects, 'experiences')}
+                {renderNavItem('projects', Tech, 'Projects')}
+                {renderNavItem('contacts', Contact, 'Contacts')}
             </ul>
         </nav>
     );
