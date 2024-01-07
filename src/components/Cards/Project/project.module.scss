@@ -16,47 +16,19 @@
     background: rgb(118, 118, 118, 0.15);
     backdrop-filter: blur(5px);
 
-    .img-container {
-      img {
-        border: 2px solid rgba(0, 128, 128, 0.8);
-      }
+    .img-container img {
+      border: 2px solid rgba(0, 128, 128, 0.8);
     }
 
-
-    .info-container {
-      .name {
-        color: rgb(0, 164, 164);
-      }
+    .info-container .name h3 {
+      color: rgb(0, 164, 164);
     }
   }
-
-  @media screen and (max-width: 768px) {
-    margin-top: 10px;
-    padding: 15px 0;
-    flex-direction: column-reverse;
-    &:hover {
-      background: none;
-
-      .info-container {
-        .name {
-          color: rgba(0, 128, 128)
-        }
-      }
-    }
-  }
-
 
   .img-container {
     position: relative;
     width: 20%;
     height: 100%;
-
-    @media screen and (max-width: 768px) {
-      margin-top: 15px;
-      width: 100%;
-      height: auto;
-    }
-
     img {
       position: relative;
       width: 100%;
@@ -65,9 +37,6 @@
       border: 1px solid rgba(0, 128, 128, 0.3);
       border-radius: 2px;
       transition: all 0.3s ease-in-out;
-      @media screen and (max-width: 768px) {
-        width: 50%;
-      }
     }
   }
 
@@ -76,19 +45,12 @@
     height: 100%;
     padding: 0 20px;
 
-    @media screen and (max-width: 768px) {
-      width: 100%;
-      padding: 0;
-    }
-
-    .name {
-      h3 {
-        margin-bottom: 10px;
-        font-size: 17px;
-        font-weight: 400;
-        color: #FCFBEE;
-        transition: all 0.3s ease-in-out;
-      }
+    .name h3 {
+      margin-bottom: 10px;
+      font-size: 17px;
+      font-weight: 400;
+      color: #FCFBEE;
+      transition: all 0.3s ease-in-out;
     }
 
     .description {
@@ -98,38 +60,22 @@
       letter-spacing: 1px;
       line-height: 1.5;
       opacity: 0.9;
-      @media screen and (max-width: 769px) {
-        font-weight: 400;
-      }
     }
 
-    .topics {
-      margin-top: 10px;
+    .topics span {
+      white-space: nowrap;
       display: inline-block;
-
-      @media screen and (max-width: 768px) {
-        margin-top: 5px;
-      }
-
-      span {
-        white-space: nowrap;
-        display: inline-block;
-        padding: 6px 12px;
-        margin: 10px 10px 0 0;
-        background: rgba($color: teal, $alpha: 0.25);
-        border-radius: 13px;
-        font-size: 12px;
-        letter-spacing: 1px;
-        color: #00fdfd;
-      }
+      padding: 6px 12px;
+      margin: 10px 10px 0 0;
+      background: rgba(teal, 0.25);
+      border-radius: 13px;
+      font-size: 12px;
+      letter-spacing: 1px;
+      color: #00fdfd;
     }
 
     .languages {
       margin-top: 15px;
-      @media screen and (max-width: 768px) {
-        margin-top: 10px;
-      }
-
       span {
         display: inline-flex;
         align-items: center;
@@ -137,20 +83,61 @@
         margin-right: 5px;
         font-size: 13px;
         font-weight: 300;
-
-        @media screen and (max-width: 768px) {
-          font-size: 12px;
-          font-weight: 400;
-        }
       }
-
       .color-circle {
         width: 10px;
         height: 10px;
         border-radius: 50%;
         margin-right: 5px;
+      }
+    }
+  }
 
-        @media screen and (max-width: 769px) {
+  @media screen and (max-width: 768px) {
+    margin-top: 10px;
+    padding: 15px 0;
+    flex-direction: column-reverse;
+
+    &:hover {
+      background: transparent;
+      backdrop-filter: none;
+
+      .info-container .name h3 {
+        color: rgba(0, 128, 128);
+      }
+    }
+
+    .img-container {
+      margin-top: 15px;
+      width: 100%;
+      height: auto;
+
+      img {
+        width: 50%;
+      }
+    }
+
+    .info-container {
+      width: 100%;
+      padding: 0;
+
+      .description {
+        font-weight: 400;
+      }
+
+      .topics {
+        margin-top: 5px;
+      }
+
+      .languages {
+        margin-top: 10px;
+
+        span {
+          font-size: 12px;
+          font-weight: 400;
+        }
+
+        .color-circle {
           width: 8px;
           height: 8px;
           margin-right: 0;
