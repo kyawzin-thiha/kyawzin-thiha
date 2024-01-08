@@ -36,7 +36,7 @@ export default function Home() {
                         <Image src={LinkedIn} alt={'LinkedIn'} className={styles.icon} width={18} height={18}/>
                         <div className={styles.label}>LinkedIn</div>
                     </a>
-                    <a href="mailto: hello@kyawzinthiha.dev" className={styles.links}>
+                    <a href="mailto: kyaw.z.thiha@gmail.com" className={styles.links}>
                         <Image src={Mail} alt={'Mail'} className={styles.icon} width={22} height={22}/>
                         <div className={styles.label}>Mail</div>
                     </a>

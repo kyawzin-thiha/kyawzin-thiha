@@ -1,23 +1,31 @@
 import styles from './experience.module.scss';
 
-export default function Experience() {
+type Experience = {
+    time: string;
+    title: string;
+    description: string;
+    tags: string[];
+}
+
+export default function Experience({experience}: { experience: Experience }) {
     return (
         <div className={styles['experience-card']}>
             <div className={styles['timeline-container']}>
-                <span>June 2022 - Present</span>
+                <span>{experience.time}</span>
             </div>
             <div className={styles['info-container']}>
                 <div className={styles['title']}>
-                    <h3>Software Engineer - Self Employed</h3>
+                    <h3>{experience.title}</h3>
                 </div>
                 <div className={styles['description']}>
-                    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    {experience.description}
                 </div>
                 <div className={styles['topics']}>
-                    <span>React</span>
-                    <span>React</span>
-                    <span>React</span>
+                    {
+                        experience.tags.map((tag, index) => (
+                            <span key={index}> {tag} </span>
+                        ))
+                    }
                 </div>
             </div>
         </div>

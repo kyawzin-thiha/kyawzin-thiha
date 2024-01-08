@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "name": "Portfolio",
+    "description": "A Portfolio website for showcasing my experiences and other innovative projects.",
+    "thumbnail": "https://job-infos.kyawzinthiha.com/Portfolio/portfolio.png",
+    "languages": [
+      "TypeScript",
+      "SCSS"
+    ],
+    "topics": [
+      "NextJS",
+      "Vercel"
+    ],
+    "repository": "https://github.com/kyawzin-thiha/kyawzin-thiha"
+  },
+  {
+    "id": "2",
+    "name": "E-Commerce",
+    "description": "An simple E-Commerce website where you can test out the database CRUD operations, order managements and payment processing system.",
+    "thumbnail": "https://job-infos.kyawzinthiha.com/Portfolio/e-commerce.png",
+    "languages": [
+      "TypeScript",
+      "Node",
+      "SCSS"
+    ],
+    "topics": [
+      "NextJS",
+      "Vercel",
+      "MongoDB",
+      "Stripe",
+      "SendGrid"
+    ],
+    "repository": "https://github.com/kyawzin-thiha/simple-ecom"
+  },
+  {
+    "id": "3",
+    "name": "Chat App",
+    "description": "A real-time chat application for friends and family to stay connected",
+    "languages": [
+      "TypeScript",
+      "Node",
+      "SCSS"
+    ],
+    "topics": [
+      "NextJS",
+      "MongoDB",
+      "Real-time",
+      "Socket.io"
+    ],
+    "thumbnail": "https://job-infos.kyawzinthiha.com/Portfolio/chat-app.png",
+    "repository": "https://github.com/kyawzin-thiha/chat-room"
+  },
+  {
+    "id": "4",
+    "name": "OpenAI GPT Recommendation Algorithm",
+    "description": "A recommendation algorithm that uses OpenAI GPT and function calling feature to get a realtime recommendation system based on user's previous preferences",
+    "languages": [
+      "TypeScript",
+      "Node",
+      "SCSS"
+    ],
+    "topics": [
+      "OpenAI",
+      "Recommendation System",
+      "OpenAI Function Calling",
+      "NestJS",
+      "Node"
+    ],
+    "thumbnail": "https://job-infos.kyawzinthiha.com/Portfolio/recommendation.png",
+    "repository": "https://github.com/kyawzin-thiha/gpt-recommendation"
+  },
+  {
+    "id": "5",
+    "name": "Web Scrapper",
+    "description": "Easy to use and simple web scrapper that scrapes the data from the website and returns the data in JSON format",
+    "languages": [
+      "TypeScript",
+      "Node",
+      "SCSS"
+    ],
+    "topics": [
+      "Web Scrapper",
+      "Puppeteer",
+      "NestJS"
+    ],
+    "thumbnail": "https://job-infos.kyawzinthiha.com/Portfolio/web-scrapper.png",
+    "repository": "https://github.com/kyawzin-thiha/web-scrapper"
+  }
+]

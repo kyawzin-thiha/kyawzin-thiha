@@ -7,7 +7,6 @@ type Project = {
     languages: string[],
     topics: string[],
     repository: string,
-    demo: string,
     thumbnail: string,
 }
 
@@ -17,9 +16,10 @@ export default function ProjectCard({project}: { project: Project }) {
         CSS: '#563d7c',
         SCSS: '#c6538c',
         Shell: '#89e051',
-        Bash: '#4eaa25', // Bash often uses the same color as Shell
+        Bash: '#4eaa25',
         JavaScript: '#f1e05a',
         TypeScript: '#2b7489',
+        Node: '#026e00',
         Java: '#b07219',
         Python: '#3572A5',
         HTML: '#e34c26'

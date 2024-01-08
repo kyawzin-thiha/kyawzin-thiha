@@ -1,0 +1,47 @@
+[
+  {
+    "time": "Dec 2023 - Present",
+    "title": "Entrepreneur - Academic Adventures",
+    "description": "I'm currently working on a startup that aims to help international students find best way to meet their academic goals and dreams. I'm responsible for designing and developing the entire product from scratch. Currently in the phase of business research and product analysis",
+    "tags": [
+      "Early Stage Startup",
+      "NextJS",
+      "NestJS",
+      "OpenAI-GPT",
+      "Tensorflow"
+    ]
+  },
+  {
+    "time": "Mar - Dec 2023",
+    "title": "Software Engineer - CampusLyfe",
+    "description": "Designed and developed a system for managing customer's orders and processing payment securely. Collaborated with a other student software engineer to build a robust and sable frontend system using NextJS and Tailwind CSS",
+    "tags": [
+      "TypeScript",
+      "NextJS",
+      "Tailwind CSS",
+      "Payment Processing"
+    ]
+  },
+  {
+    "time": "Jun 2022 - Present",
+    "title": "Web Developer - T.K. Graphics",
+    "description": "Delivered right quality, robust production code for diverse array of projects using PHP-Laravel and ReactJS.",
+    "tags": [
+      "PHP",
+      "Laravel",
+      "ReactJS",
+      "EPace API"
+    ]
+  },
+  {
+    "time": "Jun 2022 - Present",
+    "title": "Software Engineer - Freelance",
+    "description": "Designed, developed and shipped production code for multiple clients using PHP Laravel, NextJS and NestJS",
+    "tags": [
+      "TypeScript",
+      "NextJS",
+      "NestJS",
+      "OpenAI-GPT"
+    ]
+  }
+]
