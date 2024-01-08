@@ -7,6 +7,7 @@ const withPWA = require('@ducanh2912/next-pwa').default({
     scope: '/app',
     cacheStartUrl: true,
     cacheOnFrontendNav: true,
+    reloadOnOnline: true,
     sw: 'service-worker.js'
 });
 
