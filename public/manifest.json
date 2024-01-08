@@ -449,6 +449,12 @@
     {
       "src": "/icons/ios/1024.png",
       "sizes": "1024x1024"
+    },
+    {
+      "src": "/icons/maskable_icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "theme_color": "#1D2020",
