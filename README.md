@@ -25,9 +25,3 @@ Let's connect and build something amazing together! 🚀
 
 [![LinkedIn Badge](https://img.shields.io/badge/-KyawZinThiha-blue?style=flat-square&logo=LinkedIn&logoColor=white&link=your-linkedin-url)](https://www.linkedin.com/in/kyaw-zin-thiha-b14615249/)
 [![Website Badge](https://img.shields.io/badge/-KyawZinThiha.dev-47CCCC?style=flat-square&logo=Google-Chrome&logoColor=white&link=your-website-url)](http://kyawzinthiha.dev)
-
-## 📈 **My GitHub Stats:**
-
-<!-- Stats widget will be here -->
-<img  src = "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=kyawzin-thiha&show_icons=true&theme=nyanza&line_height=27&hide_border=true">
-</p>
