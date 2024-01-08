@@ -1,8 +1,0 @@
-dev/kyawzinthiha/pwa/Application.java
- dev.kyawzinthiha.pwa.Application
-dev/kyawzinthiha/pwa/DelegationService.java
- dev.kyawzinthiha.pwa.DelegationService
-dev/kyawzinthiha/pwa/BuildConfig.java
- dev.kyawzinthiha.pwa.BuildConfig
-dev/kyawzinthiha/pwa/LauncherActivity.java
- dev.kyawzinthiha.pwa.LauncherActivity
