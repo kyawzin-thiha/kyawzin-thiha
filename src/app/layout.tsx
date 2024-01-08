@@ -11,6 +11,15 @@ export const metadata: Metadata = {
     description: 'Versatile TypeScript FullStack Developer with a flair for designing and developing scalable web applications using Next.js, Nest.js, and a suite of modern technologies. Passionate about building user-centric solutions and leveraging AI technologies like OpenAI GPT for personalized experiences.',
     keywords: 'TypeScript, Full Stack Developer, React.js, Node.js, Next.js, Nest.js, Web Development, AI, OpenAI GPT, Software Engineering',
     authors: [{name: 'Kyaw Zin Thiha', url: 'https://kyawzinthiha.dev'}],
+    manifest: '/manifest.json',
+    appleWebApp: {
+        capable: true,
+        statusBarStyle: 'default',
+        title: 'Kyaw Zin Thiha'
+    },
+    formatDetection: {
+        telephone: false
+    },
     openGraph: {
         type: 'website',
         locale: 'en_IE',
