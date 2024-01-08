@@ -12,17 +12,6 @@
     ]
   },
   {
-    "time": "Mar - Dec 2023",
-    "title": "Software Engineer - CampusLyfe",
-    "description": "Designed and developed a system for managing customer's orders and processing payment securely. Collaborated with a other student software engineer to build a robust and sable frontend system using NextJS and Tailwind CSS",
-    "tags": [
-      "TypeScript",
-      "NextJS",
-      "Tailwind CSS",
-      "Payment Processing"
-    ]
-  },
-  {
     "time": "Jun 2022 - Present",
     "title": "Web Developer - T.K. Graphics",
     "description": "Delivered right quality, robust production code for diverse array of projects using PHP-Laravel and ReactJS.",
@@ -42,6 +31,17 @@
       "NextJS",
       "NestJS",
       "OpenAI-GPT"
+    ]
+  },
+  {
+    "time": "Mar - Dec 2023",
+    "title": "Software Engineer - CampusLyfe",
+    "description": "Designed and developed a system for managing customer's orders and processing payment securely. Collaborated with a other student software engineer to build a robust and sable frontend system using NextJS and Tailwind CSS",
+    "tags": [
+      "TypeScript",
+      "NextJS",
+      "Tailwind CSS",
+      "Payment Processing"
     ]
   }
 ]
