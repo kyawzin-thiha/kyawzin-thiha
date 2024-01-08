@@ -11,10 +11,8 @@ const withPWA = require('@ducanh2912/next-pwa').default({
     sw: 'service-worker.js'
 });
 
-const nextConfig = {
+module.exports = withPWA({
     images: {
         domains: ['job-infos.kyawzinthiha.com']
     }
-}
-
-module.exports = nextConfig
+})
