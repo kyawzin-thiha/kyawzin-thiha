@@ -86,5 +86,23 @@
     ],
     "thumbnail": "https://job-infos.kyawzinthiha.com/Portfolio/web-scrapper.webp",
     "repository": "https://github.com/kyawzin-thiha/web-scrapper"
+  },
+  {
+    "id": "6",
+    "name": "Cloud Vault",
+    "description": "The only place to store your sensitive files and data securely, and access them just by having an email, no password required.",
+    "languages": [
+      "TypeScript",
+      "Node",
+      "SCSS"
+    ],
+    "topics": [
+      "Cloud Storage",
+      "AWS",
+      "CloudFlare",
+      "Magic Link"
+    ],
+    "thumbnail": "https://job-infos.kyawzinthiha.com/Portfolio/cloud-vault.webp",
+    "repository": "https://github.com/kyawzin-thiha/cloud-vault"
   }
 ]
