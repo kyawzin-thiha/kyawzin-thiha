@@ -104,5 +104,22 @@
     ],
     "thumbnail": "https://job-infos.kyawzinthiha.com/Portfolio/cloud-vault.webp",
     "repository": "https://github.com/kyawzin-thiha/cloud-vault"
+  },
+  {
+    "id": "7",
+    "name": "Markdown Parser",
+    "description": "A powerful Markdown editor and parser built using Next.js, leveraging SCSS for styling and the Monaco Editor for an enhanced editing experience.",
+    "languages": [
+      "TypeScript",
+      "SCSS"
+    ],
+    "topics": [
+      "Markdown Parsing",
+      "Monaco Editor",
+      "Syntax Parsing",
+      "NextJs"
+    ],
+    "thumbnail": "https://job-infos.kyawzinthiha.com/Portfolio/markdown-parser.webp",
+    "repository": "https://github.com/kyawzin-thiha/markdown-parser"
   }
 ]
