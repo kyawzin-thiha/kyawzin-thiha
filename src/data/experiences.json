@@ -1,25 +1,14 @@
 [
   {
-    "time": "Dec 2023 - Present",
-    "title": "Entrepreneur - Academic Adventures",
-    "description": "I'm currently working on a startup that aims to help international students find best way to meet their academic goals and dreams. I'm responsible for designing and developing the entire product from scratch. Currently in the phase of business research and product analysis",
+    "time": "Mar 2024 - Present",
+    "title": "Graduate CFD Software Developer - Aston Martin F1",
+    "description": "Maintain and develop visualisation software for our CFD process.",
     "tags": [
-      "Early Stage Startup",
-      "NextJS",
-      "NestJS",
-      "OpenAI-GPT",
-      "Tensorflow"
-    ]
-  },
-  {
-    "time": "Jun 2022 - Present",
-    "title": "Web Developer - T.K. Graphics",
-    "description": "Delivered right quality, robust production code for diverse array of projects using PHP-Laravel and ReactJS.",
-    "tags": [
-      "PHP",
-      "Laravel",
-      "ReactJS",
-      "EPace API"
+      "CFD",
+      "React",
+      "Python",
+      "Rust",
+      "PostgreSQL"
     ]
   },
   {
@@ -31,6 +20,17 @@
       "NextJS",
       "NestJS",
       "OpenAI-GPT"
+    ]
+  },
+  {
+    "time": "Jun 2022 - Feb 2024",
+    "title": "Web Developer - T.K. Graphics",
+    "description": "Delivered right quality, robust production code for diverse array of projects using PHP-Laravel and ReactJS.",
+    "tags": [
+      "PHP",
+      "Laravel",
+      "ReactJS",
+      "EPace API"
     ]
   },
   {

@@ -44,20 +44,19 @@ export default function Home() {
                 <hr className={styles.divider}/>
                 <div className={styles.summery}>
                     <p>
-                        Hey!, I&apos;m Kyaw, <b> Experienced TypeScript full-stack developer </b> from Portsmouth with 2
+                        Hey!, I&apos;m Kyaw, <b> Experienced TypeScript full-stack developer </b> in Milton Keynes with
+                        over 2
                         years of
                         experience
                         in <b>React</b>,<b> Next</b>,<b> Node</b>.js with<b> MongoDB</b> and <b>Postgres </b>. Ready to
                         build innovative web applications and always putting out creative solutions to
-                        problems. Stepping into the world of Machine Learning and
-                        planning to
-                        start building my own Tic-Tac-Toe Tensorflow model.
+                        problems. Stepping into the world of Machine Learning and keeping up to date wit the latest news
+                        and technologies
                     </p><br/>
                     <p>
-                        My main focus right now is building my own startup which involved advanced machine learning
-                        recommendation algorithm, currently in the phase of business research
-                        and project
-                        analysis.
+                        Currently, I&apos;m working as CFD Software Developer building amazing visualization tools for
+                        out
+                        streamlined CFD process.
                     </p><br/>
                     <p>
                         When I’m not at the computer, I’m usually playing football, reading books, watching movies,
