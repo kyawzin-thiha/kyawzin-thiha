@@ -2,13 +2,14 @@
   {
     "time": "Mar 2024 - Present",
     "title": "Graduate CFD Software Developer - Aston Martin F1",
-    "description": "Maintain and develop visualisation software for our CFD process.",
+    "description": "Maintain and develop visualisation software and microservices for our CFD process.",
     "tags": [
-      "CFD",
-      "React",
+      "TypeScript",
       "Python",
+      "Go",
       "Rust",
-      "PostgreSQL"
+      "PostgreSQL",
+      "Neo4J"
     ]
   },
   {

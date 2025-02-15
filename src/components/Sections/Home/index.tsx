@@ -45,18 +45,18 @@ export default function Home() {
                 <div className={styles.summery}>
                     <p>
                         Hey!, I&apos;m Kyaw, <b> Experienced TypeScript full-stack developer </b> in Milton Keynes with
-                        over 2
+                        3
                         years of
                         experience
-                        in <b>React</b>,<b> Next</b>,<b> Node</b>.js with<b> MongoDB</b> and <b>Postgres </b>. Ready to
+                        in <b>TypeScript</b>,<b> Python</b>,<b> Rust</b> with<b> MongoDB</b>, <b>Postgres</b> and <b>Neo4J</b>.
+                        Ready to
                         build innovative web applications and always putting out creative solutions to
                         problems. Stepping into the world of Machine Learning and keeping up to date wit the latest news
                         and technologies
                     </p><br/>
                     <p>
-                        Currently, I&apos;m working as CFD Software Developer building amazing visualization tools for
-                        out
-                        streamlined CFD process.
+                        Currently, I&apos;m working as CFD Software Developer building amazing visualization tools and
+                        microservices for streamlined CFD process.
                     </p><br/>
                     <p>
                         When I’m not at the computer, I’m usually playing football, reading books, watching movies,
